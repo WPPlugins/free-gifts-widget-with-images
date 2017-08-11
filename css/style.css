@@ -1,0 +1,5 @@
+.gift {position:relative;width:100%;display: none;}
+.gift img {width:100%;box-sizing: border-box;}
+.gift_details {position:absolute;top:0;left:0;width:100%;height:100%;padding:0 10px;box-sizing:border-box;background:#000;opacity:0;-webkit-transition:all 300ms ease-out;-moz-transition:all 300ms ease-out;-o-transition:all 300ms ease-out;-ms-transition:all 300ms ease-out;transition:all 300ms ease-out;}
+.gift_details:hover {opacity:.5;}
+.gift_details p {white-space:nowrap;overflow:hidden;text-overflow: ellipsis;}
